@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "cLA/4zkaU8ZsPxOfyJ51mX/L46UTNY7YGfeZI7KTEmDFeOxfsJju3xvJrwHjTBpumExDHU77gCAO09NI1Jb9dw==",
+  "dgSpecHash": "ziMDy1CRkJGMq56uh2pn66huIHyukAzQ6madqy3KpFiygwS8oY6U8FLGaiaTzFPGm456MZ5nZdena17FeAFTUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hieu.nguyen\\source\\repos\\BatchRename\\BatchRename\\BatchRename.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Code\\Study\\22_23_HKI\\Window\\project_1\\BatchRename\\BatchRename\\BatchRename.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MiHi\\.nuget\\packages\\controlzex\\5.0.1\\controlzex.5.0.1.nupkg.sha512",
+    "C:\\Users\\MiHi\\.nuget\\packages\\fluent.ribbon\\9.0.4\\fluent.ribbon.9.0.4.nupkg.sha512",
+    "C:\\Users\\MiHi\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
+    "C:\\Users\\MiHi\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
