@@ -1,12 +1,30 @@
-﻿<Window x:Class="BatchRename.MainWindow"
+﻿<Fluent:RibbonWindow x:Class="BatchRename.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Fluent="clr-namespace:Fluent;assembly=Fluent"                  
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BatchRename"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
-</Window>
+        Title="Super Batch Rename" Height="450" Width="800">
+    <DockPanel>
+        <Fluent:Ribbon DockPanel.Dock="Top">
+            <Fluent:Ribbon.Menu>
+                <Fluent:Backstage Header="File">
+                    <Fluent:BackstageTabControl>
+                        <Fluent:BackstageTabItem Header="Info"/>
+                        <Fluent:BackstageTabItem Header="New"/>
+                        <Fluent:BackstageTabItem Header="Quit"/>
+                    </Fluent:BackstageTabControl>
+                </Fluent:Backstage>
+            </Fluent:Ribbon.Menu>
+            <Fluent:RibbonTabItem Header="Home">
+                <Fluent:RibbonGroupBox Header="Seclect">
+                    <Fluent:Button Name="addFile" Header="Add File" MediumIcon="icons\add-file.png" Padding="5" Width="50" Height="75"/>
+                    <Fluent:Button Name="addFolder" Header="Add Folder" MediumIcon="icons\add-folder.png" Padding="5" Width="50" Height="75"/>
+                </Fluent:RibbonGroupBox>
+            </Fluent:RibbonTabItem>
+        </Fluent:Ribbon>
+        <TextBlock>File loaded show here.</TextBlock>
+    </DockPanel>
+</Fluent:RibbonWindow>

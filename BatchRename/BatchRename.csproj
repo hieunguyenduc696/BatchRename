@@ -7,4 +7,18 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="icons\add-file.png" />
+    <None Remove="icons\add-folder.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fluent.Ribbon" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons\add-file.png" />
+    <Resource Include="icons\add-folder.png" />
+  </ItemGroup>
+
 </Project>
