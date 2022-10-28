@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\Study\\22_23_HKI\\Window\\project_1\\BatchRename\\BatchRename\\BatchRename.csproj": {}
+    "C:\\Users\\Tung\\Desktop\\Term7\\Windows\\Assignment\\DoAn1\\BatchRename\\BatchRename.csproj": {}
   },
   "projects": {
-    "D:\\Code\\Study\\22_23_HKI\\Window\\project_1\\BatchRename\\BatchRename\\BatchRename.csproj": {
+    "C:\\Users\\Tung\\Desktop\\Term7\\Windows\\Assignment\\DoAn1\\BatchRename\\BatchRename.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Study\\22_23_HKI\\Window\\project_1\\BatchRename\\BatchRename\\BatchRename.csproj",
+        "projectUniqueName": "C:\\Users\\Tung\\Desktop\\Term7\\Windows\\Assignment\\DoAn1\\BatchRename\\BatchRename.csproj",
         "projectName": "BatchRename",
-        "projectPath": "D:\\Code\\Study\\22_23_HKI\\Window\\project_1\\BatchRename\\BatchRename\\BatchRename.csproj",
-        "packagesPath": "C:\\Users\\MiHi\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Study\\22_23_HKI\\Window\\project_1\\BatchRename\\BatchRename\\obj\\",
+        "projectPath": "C:\\Users\\Tung\\Desktop\\Term7\\Windows\\Assignment\\DoAn1\\BatchRename\\BatchRename.csproj",
+        "packagesPath": "C:\\Users\\Tung\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tung\\Desktop\\Term7\\Windows\\Assignment\\DoAn1\\BatchRename\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MiHi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tung\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

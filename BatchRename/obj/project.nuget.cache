@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ziMDy1CRkJGMq56uh2pn66huIHyukAzQ6madqy3KpFiygwS8oY6U8FLGaiaTzFPGm456MZ5nZdena17FeAFTUg==",
+  "dgSpecHash": "2RYB3blBWxCy0ESh56fn6SIXj4Wp0eG8wjz6+rMOS778ccj5RxE3tYMdFMtLAWCI4w9oS6PtBMBTl5XCrAxeBQ==",
   "success": true,
-  "projectFilePath": "D:\\Code\\Study\\22_23_HKI\\Window\\project_1\\BatchRename\\BatchRename\\BatchRename.csproj",
+  "projectFilePath": "C:\\Users\\Tung\\Desktop\\Term7\\Windows\\Assignment\\DoAn1\\BatchRename\\BatchRename.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\MiHi\\.nuget\\packages\\controlzex\\5.0.1\\controlzex.5.0.1.nupkg.sha512",
-    "C:\\Users\\MiHi\\.nuget\\packages\\fluent.ribbon\\9.0.4\\fluent.ribbon.9.0.4.nupkg.sha512",
-    "C:\\Users\\MiHi\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
-    "C:\\Users\\MiHi\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
+    "C:\\Users\\Tung\\.nuget\\packages\\controlzex\\5.0.1\\controlzex.5.0.1.nupkg.sha512",
+    "C:\\Users\\Tung\\.nuget\\packages\\fluent.ribbon\\9.0.4\\fluent.ribbon.9.0.4.nupkg.sha512",
+    "C:\\Users\\Tung\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
+    "C:\\Users\\Tung\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }
