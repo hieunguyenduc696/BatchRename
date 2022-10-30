@@ -48,7 +48,7 @@ namespace BatchRename {
         /// InitializeComponent
         /// </summary>
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "6.0.8.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "6.0.9.0")]
         public void InitializeComponent() {
             if (_contentLoaded) {
                 return;
@@ -60,7 +60,7 @@ namespace BatchRename {
             
             #line default
             #line hidden
-            System.Uri resourceLocater = new System.Uri("/BatchRename;V1.0.0.0;component/app.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/BatchRename;component/app.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\App.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
@@ -74,7 +74,7 @@ namespace BatchRename {
         /// </summary>
         [System.STAThreadAttribute()]
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "6.0.8.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "6.0.9.0")]
         public static void Main() {
             BatchRename.App app = new BatchRename.App();
             app.InitializeComponent();
