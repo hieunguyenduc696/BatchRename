@@ -7,9 +7,20 @@ using System.Threading.Tasks;
 
 namespace RenamingRules
 {
-    public class RenamingRules
+    interface IRule
     {
-        public List<string> ChangeExtension(List<string> fileNames, string newExtension)
+        List<string> Rename(List<string> origin);
+    }
+
+    public class ChangeExtension : IRule
+    {
+        public string newExtension { get; set; }
+
+        ChangeExtension(string newExtension)
+        {
+            this.newExtension = newExtension;
+        }
+        public List<string> Rename(List<string> fileNames)
         {
             List<string> result = new List<string>();
             string pattern = $"[0-9a-z]+.$";
@@ -21,16 +32,22 @@ namespace RenamingRules
 
             return result;
         }
-        public List<string> AddCounter(List<string> fileNames, int start, int step, int numberOfDigits)
+    }
+    public class AdddCounter : IRule
+    {
+        public int Start { get; set; }
+        public int Step { get; set; }
+        public int NumberOfDigits { get; set; }
+        public List<string> Rename(List<string> fileNames)
         {
             List<string> result = new List<string>();
 
             for (int i = 0; i < fileNames.Count; i++)
             {
                 string[] splitName = fileNames[i].Split('.');
-                string counter = (start + i * step).ToString();
+                string counter = (Start + i * Step).ToString();
 
-                while (counter.Length < numberOfDigits)
+                while (counter.Length < NumberOfDigits)
                 {
                     counter = "0" + counter;
                 }
@@ -41,7 +58,10 @@ namespace RenamingRules
 
             return result;
         }
-        public List<string> RemoveSpaceAtStartEnd(List<string> fileNames)
+    }
+    public class RemoveSpaceAtStartEnd : IRule
+    {
+        public List<string> Rename(List<string> fileNames)
         {
             List<string> result = new List<string>();
 
@@ -58,8 +78,10 @@ namespace RenamingRules
 
             return result;
         }
-
-        public List<string> LowerCaseAndRemoveSpace(List<string> fileNames)
+    }
+    public class LowerCaseAndRemoveSpace : IRule
+    {
+        public List<string> Rename(List<string> fileNames)
         {
             List<string> result = new List<string>();
 
@@ -72,8 +94,15 @@ namespace RenamingRules
 
             return result;
         }
-
-        public List<string> ReplacePattern(List<string> fileNames, string character, string replacedWith)
+    }
+    public class ReplacePattern : IRule {
+        public List<string> Characters { get; set; }
+        public string ReplacedWith { get; set; }
+        ReplacePattern()
+        {
+            Characters = new List<string>();
+        }
+        public List<string> Rename(List<string> fileNames)
         {
             List<string> result = new List<string>();
 
@@ -84,14 +113,18 @@ namespace RenamingRules
 
                 string file_name = string.Join("", n);
                 string file_extension = splitName[splitName.Length - 1];
-
-                result.Add(Regex.Replace(file_name, character, replacedWith) + "." + file_extension);
+                for (int i = 0; i < Characters.Count; i++)
+                result.Add(Regex.Replace(file_name, Characters[i], ReplacedWith) + "." + file_extension);
 
             }
 
             return result;
         }
-        public List<string> AddPreffix(List<string> fileNames, string preffix)
+    }
+    public class AddPreffix : IRule
+    {
+        public string Preffix { get; set; }
+        public List<string> Rename(List<string> fileNames)
         {
             List<string> result = new List<string>();
 
@@ -103,12 +136,17 @@ namespace RenamingRules
                 string file_name = string.Join("", n);
                 string file_extension = splitName[splitName.Length - 1];
 
-                result.Add(Regex.Replace(file_name, @"^", preffix) + "." + file_extension);
+                result.Add(Regex.Replace(file_name, @"^", Preffix) + "." + file_extension);
             }
 
             return result;
         }
-        public List<string> AddSuffix(List<string> fileNames, string suffix)
+    }
+
+    public class AddSuffix : IRule
+    {
+        public string Suffix { get; set; }
+        public List<string> Rename(List<string> fileNames)
         {
             List<string> result = new List<string>();
 
@@ -120,7 +158,7 @@ namespace RenamingRules
                 string file_name = string.Join("", n);
                 string file_extension = splitName[splitName.Length - 1];
 
-                result.Add(Regex.Replace(file_name, @"$", suffix) + "." + file_extension);
+                result.Add(Regex.Replace(file_name, @"$", Suffix) + "." + file_extension);
             }
 
             return result;

@@ -10,15 +10,18 @@
   <ItemGroup>
     <None Remove="icons\add-file.png" />
     <None Remove="icons\add-folder.png" />
+    <None Remove="icons\start-icon.png" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Fluent.Ribbon" Version="9.0.4" />
+    <PackageReference Include="PropertyChanged.Fody" Version="4.1.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="icons\add-file.png" />
     <Resource Include="icons\add-folder.png" />
+    <Resource Include="icons\start-icon.png" />
   </ItemGroup>
 
 </Project>

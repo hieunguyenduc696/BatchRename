@@ -1,6 +1,7 @@
 ﻿using Fluent;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.IO;
 using System.Linq;
@@ -25,11 +26,36 @@ namespace BatchRename
     /// </summary>
     public partial class MainWindow : RibbonWindow
     {
+        List<IRule> _listOfRules;
+        BindingList<RenamingRule> _presetRules;
         public MainWindow()
         {
             InitializeComponent();
-            Panel.SetZIndex(FileCanvas, 1);
-            Panel.SetZIndex(FolderCanvas, 0);
+            this.DataContext = this;
+
+        }
+
+        private void configBindingSource()
+        {
+            _listOfRules = new List<IRule>();
+            _presetRules = new BindingList<RenamingRule>();
+            loadRules();
+            loadPreset();
+        }
+
+        private void loadRules()
+        {
+            // dll change here
+            _listOfRules.Add(new AddCounter());
+            _listOfRules.Add(new ChangeExtension() { newExtension = "file" });
+        }
+
+        private void loadPreset()
+        {
+            for (int i = 0; i < _listOfRules.Count; i++)
+            {
+                _presetRules.Add(new RenamingRule() { Name = _listOfRules[i].GetRuleName(), Checked = true });
+            }
         }
         private void addFile_Click(object sender, RoutedEventArgs e)
         {
@@ -70,6 +96,32 @@ namespace BatchRename
                     });
                 }
             }
+        }
+
+        private void startRenaming_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            Panel.SetZIndex(FileCanvas, 1);
+            Panel.SetZIndex(FolderCanvas, 0);
+            RenamingRules.ItemsSource = _presetRules;
+            configBindingSource();
+            RenamingRules.Items.Add(new RenamingRule(){ Name = "HO", Checked = false });
+        }
+
+        private void Window_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            FileTab.Width = MainPanel.ActualWidth + 20 - 200;
+            FolderTab.Width = MainPanel.ActualWidth + 20 - 200;
+        }
+
+        private void ConfigRule_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

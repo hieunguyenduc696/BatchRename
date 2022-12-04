@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "1WBh4kKZW+jfV35vBkPAQdM+w39v6DP+F3QRmq1P4u/k40r/j/DJ5qvGxs91/WyNoyjvbQel8a54KZFwbJ/lbg==",
+  "dgSpecHash": "iKMhJQ7ewdmGgJkuo2kyJhITkdhzSW9K4NS2wq3pdcrEGQGzpvasHCOdjJD7mWizl0DzVyGrRpKoRBAeUUIdjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hieu.nguyen\\source\\repos\\BatchRename\\BatchRename\\BatchRename.csproj",
+  "projectFilePath": "D:\\srcC#\\MidtermProject\\BatchRename\\BatchRename.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\hieu.nguyen\\.nuget\\packages\\controlzex\\5.0.1\\controlzex.5.0.1.nupkg.sha512",
-    "C:\\Users\\hieu.nguyen\\.nuget\\packages\\fluent.ribbon\\9.0.4\\fluent.ribbon.9.0.4.nupkg.sha512",
-    "C:\\Users\\hieu.nguyen\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
-    "C:\\Users\\hieu.nguyen\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
+    "C:\\Users\\Tung\\.nuget\\packages\\controlzex\\5.0.1\\controlzex.5.0.1.nupkg.sha512",
+    "C:\\Users\\Tung\\.nuget\\packages\\fluent.ribbon\\9.0.4\\fluent.ribbon.9.0.4.nupkg.sha512",
+    "C:\\Users\\Tung\\.nuget\\packages\\fody\\6.6.4\\fody.6.6.4.nupkg.sha512",
+    "C:\\Users\\Tung\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
+    "C:\\Users\\Tung\\.nuget\\packages\\propertychanged.fody\\4.1.0\\propertychanged.fody.4.1.0.nupkg.sha512",
+    "C:\\Users\\Tung\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }

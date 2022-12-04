@@ -46,10 +46,6 @@
             "Fluent.Ribbon": {
               "target": "Package",
               "version": "[9.0.4, )"
-            },
-            "PropertyChanged.Fody": {
-              "target": "Package",
-              "version": "[4.1.0, )"
             }
           },
           "imports": [
