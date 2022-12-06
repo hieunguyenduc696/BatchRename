@@ -10,69 +10,40 @@ namespace BatchRename
 {
     public class File : INotifyPropertyChanged
     {
-        private string _filename;
-        private string _newfilename;
-        private string _path;
-        private string _erro;
-
         public string Filename
         {
-            get => _filename; set
-            {
-                _filename = value;
-                NotifyChanged("Filename");
-            }
+            get; set;
         }
 
         public string Newfilename
         {
-            get => _newfilename;
-            set
-            {
-                _newfilename = value;
-                NotifyChanged("Newfilename");
-            }
+            get;set;
         }
 
         public string Path
         {
-            get => _path;
-            set
-            {
-                _path = value;
-                NotifyChanged("Path");
-            }
+            get;
+            set;
+           
         }
 
         public string Erro
         {
-            get => _erro;
-            set
-            {
-                _erro = value;
-                NotifyChanged("Erro");
-            }
+            get; set;
         }
 
-        private void NotifyChanged(string v)
-        {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged.Invoke(this, new PropertyChangedEventArgs(v));
-            }
-        }
 
         public File Clone()
         {
             return new File()
             {
-                Filename = this._filename,
-                Newfilename = this._newfilename,
-                Path = this._path,
-                Erro = this._erro
+                Filename = this.Filename,
+                Newfilename = this.Newfilename,
+                Path = this.Path,
+                Erro = this.Erro
             };
         }
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler? PropertyChanged;
     }
 }

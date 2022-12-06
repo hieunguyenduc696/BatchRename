@@ -9,66 +9,39 @@ namespace BatchRename
 {
     public class Folder : INotifyPropertyChanged
     {
-        private string _folder;
-        private string _newfolder;
-        private string _path;
-        private string _erro;
-
         public string Foldername
         {
-            get => _folder; set
-            {
-                _folder = value;
-                NotifyChanged("Folder");
-            }
+            get; set;
         }
 
         public string Newfolder
         {
-            get => _newfolder;
-            set
-            {
-                _newfolder = value;
-                NotifyChanged("Newfolder");
-            }
+            get; set;
         }
 
         public string Path
         {
-            get => _path;
-            set
-            {
-                _path = value;
-                NotifyChanged("Path");
-            }
+            get; set;
         }
 
         public string Erro
         {
-            get => _erro;
-            set
-            {
-                _erro = value;
-                NotifyChanged("Erro");
-            }
+            get; set;
         }
 
-        private void NotifyChanged(string v)
+        public Folder()
         {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged.Invoke(this, new PropertyChangedEventArgs(v));
-            }
+            
         }
 
         public Folder Clone()
         {
             return new Folder()
             {
-                Foldername = this._folder,
-                Newfolder = this._newfolder,
-                Path = this._path,
-                Erro = this._erro
+                Foldername = this.Foldername,
+                Newfolder = this.Newfolder,
+                Path = this.Path,
+                Erro = this.Erro
             };
         }
 

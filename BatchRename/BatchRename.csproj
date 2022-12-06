@@ -10,7 +10,9 @@
   <ItemGroup>
     <None Remove="icons\add-file.png" />
     <None Remove="icons\add-folder.png" />
+    <None Remove="icons\clear-icon.png" />
     <None Remove="icons\start-icon.png" />
+    <None Remove="icons\switch-icon.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,7 +23,9 @@
   <ItemGroup>
     <Resource Include="icons\add-file.png" />
     <Resource Include="icons\add-folder.png" />
+    <Resource Include="icons\clear-icon.png" />
     <Resource Include="icons\start-icon.png" />
+    <Resource Include="icons\switch-icon.png" />
   </ItemGroup>
 
 </Project>

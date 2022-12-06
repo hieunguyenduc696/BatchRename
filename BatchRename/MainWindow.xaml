@@ -6,9 +6,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BatchRename" 
         mc:Ignorable="d"
-        Title="Super Batch Rename" Height="450" Width="800" Loaded="Window_Loaded" SizeChanged="Window_SizeChanged">
+        Title="Super Batch Rename" Height="450" Width="800" Loaded="Window_Loaded" SizeChanged="Window_SizeChanged" WindowStartupLocation="CenterScreen">
     <DockPanel x:Name="MainPanel">
-        <Fluent:Ribbon DockPanel.Dock="Top">
+        <Fluent:Ribbon DockPanel.Dock="Top" Name="FunctionalPanel">
             <Fluent:Ribbon.Menu>
                 <Fluent:Backstage Header="File">
                     <Fluent:BackstageTabControl>
@@ -19,49 +19,73 @@
                 </Fluent:Backstage>
             </Fluent:Ribbon.Menu>
             <Fluent:RibbonTabItem Header="Home">
-                <Fluent:RibbonGroupBox Header="Select">
+                <Fluent:RibbonGroupBox Header="Select" Name="ButtonGroupBox" Width="250">
                     <Fluent:Button Name="addFile" Click="addFile_Click" Header="Add File" MediumIcon="icons\add-file.png" Padding="5" Width="50" Height="75"/>
                     <Fluent:Button Name="addFolder" Click="addFolder_Click" Header="Add Folder" MediumIcon="icons\add-folder.png" Padding="5" Width="50" Height="75"/>
-                    <Fluent:Button Name="Start" Click="startRenaming_Click" Header="Start" MediumIcon="icons\start-icon.png" Padding="0 5"></Fluent:Button>
+                    <Fluent:Button Name="Start" Click="startRenaming_Click" Header="Start" MediumIcon="icons\start-icon.png" Padding="0 5" Width="50" Height="75"></Fluent:Button>
+                    <Fluent:Button Name="Clear" Click="clearData_Click" Header="Clear" MediumIcon="icons\clear-icon.png" Padding="0 5" Width="50" Height="75"></Fluent:Button>
+                    <Fluent:Button Name="Switch" Click="switchData_Click" Header="Switch Type" MediumIcon="icons\switch-icon.png" Padding="0 5" Width="50" Height="75"></Fluent:Button>
+                </Fluent:RibbonGroupBox>
+                <Fluent:RibbonGroupBox Width="544" Name="ProcessGroupBox">
+                    <TextBlock Text="{Binding CurrentName}">
+                    </TextBlock>
+                    <ProgressBar Minimum="0" Maximum="{Binding Total}" Value="{Binding Current}" Width="200" Height="10" Margin="0 0 0 0"></ProgressBar>
                 </Fluent:RibbonGroupBox>
             </Fluent:RibbonTabItem>
         </Fluent:Ribbon>
-        <ListView Name="RenamingRules" Width="200" Height="300">
-            <Label>Renaming rules</Label>
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <Grid Width="190">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="2*"></ColumnDefinition>
-                            <ColumnDefinition Width="*"></ColumnDefinition>
-                        </Grid.ColumnDefinitions>
-                        <TextBlock Text="{Binding Name}" Margin="0 2 0 0" Grid.Column="0"></TextBlock>
-                        <StackPanel Orientation="Horizontal" DockPanel.Dock="Left" Grid.Column="1">
-                            <CheckBox IsChecked="{Binding Checked}" Margin="0 3 0 0"></CheckBox>
-                            <Button Click="ConfigRule_Click" Margin="5 0 0 0">Config</Button>
-                        </StackPanel>
-                    </Grid>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+        <Canvas Name="ListRulesCanvas" DockPanel.Dock="Left" Margin="0 4 0 0">
+            <StackPanel Orientation="Vertical">
+                <StackPanel Width="200" Height="25" Orientation="Horizontal">
+                    <TextBlock Text="Current preset: " Padding="5 5 0 0"></TextBlock>
+                    <!--<ComboBox >
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding PresetName}"></TextBlock>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>-->
+                </StackPanel>
+
+                <ListView Name="RenamingRules" Width="200" Height="300">
+                    <Label>Renaming rules</Label>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Width="180">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="{Binding Name}" Margin="0 2 0 0" Grid.Column="0"></TextBlock>
+                                <StackPanel Orientation="Horizontal" DockPanel.Dock="Left" Grid.Column="1">
+                                    <CheckBox IsChecked="{Binding Checked}" Margin="0 3 0 0"></CheckBox>
+                                    <Button Click="ConfigRule_Click" Margin="5 0 0 0">Config</Button>
+                                </StackPanel>
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
         
-        <Canvas x:Name="FileCanvas" Margin="5 4 0 0">
-            <DataGrid Name="FileTab" Background="Transparent" GridLinesVisibility="All" HorizontalAlignment="Left" VerticalAlignment="Center" Width="801">
+        </Canvas>
+
+
+        <Canvas x:Name="FileCanvas" Margin="205 4 0 0">
+            <DataGrid Name="FileTab" Background="Transparent" GridLinesVisibility="All" HorizontalAlignment="Left" VerticalAlignment="Center" Width="592" IsReadOnly="True" AutoGenerateColumns="False">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="Filename" Width="*" Binding="{Binding Filename}"/>
-                    <DataGridTextColumn Header="New Filename" Width="*" Binding="{Binding Newfilename}"/>
-                    <DataGridTextColumn Header="Path" Width="*" Binding="{Binding Path}"/>
-                    <DataGridTextColumn Header="Error" Width="*" Binding="{Binding Erro}"/>
+                    <DataGridTextColumn Header="Filename" Width="*" Binding="{Binding Filename}" MinWidth="60"/>
+                    <DataGridTextColumn Header="New Filename" Width="*" Binding="{Binding Newfilename}" MinWidth="85"/>
+                    <DataGridTextColumn Header="Path" Width="*" Binding="{Binding Path}" MinWidth="50"/>
+                    <DataGridTextColumn Header="Error" Width="*" Binding="{Binding Erro}" MinWidth="50"/>
                 </DataGrid.Columns>
             </DataGrid>
         </Canvas>
-        <Canvas x:Name="FolderCanvas" Margin="5 4 0 0">
-            <DataGrid Name="FolderTab" Background="Transparent" GridLinesVisibility="All" HorizontalAlignment="Center" VerticalAlignment="Center" Width="800">
+        <Canvas x:Name="FolderCanvas" Margin="0 4 0 0">
+            <DataGrid Name="FolderTab" Background="Transparent" GridLinesVisibility="All" HorizontalAlignment="Left" VerticalAlignment="Center" Width="592" IsReadOnly="True" AutoGenerateColumns="False">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="Foldername" Width="*" Binding="{Binding Foldername}"/>
-                    <DataGridTextColumn Header="New Foldername" Width="*" Binding="{Binding Newfolder}"/>
-                    <DataGridTextColumn Header="Folder Path" Width="*" Binding="{Binding Path}"/>
-                    <DataGridTextColumn Header="Error" Width="*" Binding="{Binding Erro}"/>
+                    <DataGridTextColumn Header="Foldername" Width="*" Binding="{Binding Foldername}" MinWidth="60"/>
+                    <DataGridTextColumn Header="New Foldername" Width="*" Binding="{Binding Newfolder}" MinWidth="85"/>
+                    <DataGridTextColumn Header="Folder Path" Width="*" Binding="{Binding Path}" MinWidth="50"/>
+                    <DataGridTextColumn Header="Error" Width="*" Binding="{Binding Erro}" MinWidth="50"/>
                 </DataGrid.Columns>
             </DataGrid>
         </Canvas>

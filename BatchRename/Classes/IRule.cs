@@ -8,7 +8,12 @@ namespace BatchRename
 {
     interface IRule
     {
-        List<string> Rename(List<string> origin);
+        string Rename(string origin);
+        List<string> RenameList(List<string> origins);
         string GetRuleName();
+        List<Parameter> GetParameters();
+
+        void UpdateConfigParameters(List<Parameter> updatedList);
+        void iterateConfig(int idx); // use for setup iterating
     }
 }
