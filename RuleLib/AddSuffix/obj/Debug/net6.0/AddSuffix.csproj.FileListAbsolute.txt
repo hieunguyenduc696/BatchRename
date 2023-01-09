@@ -1,0 +1,15 @@
+D:\srcC#\RuleLib\RuleLib\AddSuffix\bin\Debug\net6.0\AddSuffix.deps.json
+D:\srcC#\RuleLib\RuleLib\AddSuffix\bin\Debug\net6.0\AddSuffix.dll
+D:\srcC#\RuleLib\RuleLib\AddSuffix\bin\Debug\net6.0\AddSuffix.pdb
+D:\srcC#\RuleLib\RuleLib\AddSuffix\bin\Debug\net6.0\Rule.dll
+D:\srcC#\RuleLib\RuleLib\AddSuffix\bin\Debug\net6.0\Rule.pdb
+D:\srcC#\RuleLib\RuleLib\AddSuffix\obj\Debug\net6.0\AddSuffix.csproj.AssemblyReference.cache
+D:\srcC#\RuleLib\RuleLib\AddSuffix\obj\Debug\net6.0\AddSuffix.GeneratedMSBuildEditorConfig.editorconfig
+D:\srcC#\RuleLib\RuleLib\AddSuffix\obj\Debug\net6.0\AddSuffix.AssemblyInfoInputs.cache
+D:\srcC#\RuleLib\RuleLib\AddSuffix\obj\Debug\net6.0\AddSuffix.AssemblyInfo.cs
+D:\srcC#\RuleLib\RuleLib\AddSuffix\obj\Debug\net6.0\AddSuffix.csproj.CoreCompileInputs.cache
+D:\srcC#\RuleLib\RuleLib\AddSuffix\obj\Debug\net6.0\AddSuffix.csproj.CopyComplete
+D:\srcC#\RuleLib\RuleLib\AddSuffix\obj\Debug\net6.0\AddSuffix.dll
+D:\srcC#\RuleLib\RuleLib\AddSuffix\obj\Debug\net6.0\refint\AddSuffix.dll
+D:\srcC#\RuleLib\RuleLib\AddSuffix\obj\Debug\net6.0\AddSuffix.pdb
+D:\srcC#\RuleLib\RuleLib\AddSuffix\obj\Debug\net6.0\ref\AddSuffix.dll

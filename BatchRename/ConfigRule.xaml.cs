@@ -19,10 +19,10 @@ namespace BatchRename
 
     public partial class ConfigRule : Window
     {
-        public BindingList<Parameter> _configRuleParameters = new BindingList<Parameter>();
+        public BindingList<Rule.Parameter> _configRuleParameters = new BindingList<Rule.Parameter>();
         public string RuleName = "";
         bool isError = false;
-        public ConfigRule(string ruleName, BindingList<Parameter> configRuleParameters)
+        public ConfigRule(string ruleName, BindingList<Rule.Parameter> configRuleParameters)
         {
             InitializeComponent();
             RuleName = ruleName;
@@ -39,13 +39,22 @@ namespace BatchRename
             {
                 try
                 {
+                    Regex pattern = new Regex(@"");
                     switch (_configRuleParameters[i].Type) {
                         case "int":
                             int a = int.Parse(_configRuleParameters[i].StringValue);
                             break;
                         case "extension":
-                            Regex pattern = new Regex(@"\W");
-                            if (pattern.IsMatch(_configRuleParameters[i].StringValue) == true)
+                            pattern = new Regex(@"^[\w\-. ]+$");
+                            if (pattern.IsMatch(_configRuleParameters[i].StringValue) == false)
+                            {
+                                MessageBox.Show("Your inputs are invalid please recheck!", "Warning!", MessageBoxButton.OK, MessageBoxImage.Warning);
+                                return;
+                            }
+                            break;
+                        case "pattern":
+                            pattern = new Regex(@"^[\w\-. ]+$");
+                            if (pattern.IsMatch(_configRuleParameters[i].StringValue) == false)
                             {
                                 MessageBox.Show("Your inputs are invalid please recheck!", "Warning!", MessageBoxButton.OK, MessageBoxImage.Warning);
                                 return;

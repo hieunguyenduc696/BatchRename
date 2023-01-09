@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Rule;
 
 namespace BatchRename
 {
@@ -11,9 +12,9 @@ namespace BatchRename
     class RuleFactory
     {
         private static RuleFactory? _instance = null;
-        private static Dictionary<string, IRule> _rules = new Dictionary<string, IRule>();
+        private static Dictionary<string, Rule.IRule> _rules = new Dictionary<string, Rule.IRule>();
 
-        public static void Config(List<IRule> rules)
+        public static void Config(List<Rule.IRule> rules)
         {
             foreach (var rule in rules)
             {
@@ -35,13 +36,13 @@ namespace BatchRename
             return _instance;
         }
 
-        public IRule CreateRule(string loai)
+        public Rule.IRule CreateRule(string loai)
         {
-            IRule result = (IRule)(_rules[loai] as ICloneable)!.Clone();
+            Rule.IRule result = (Rule.IRule)(_rules[loai] as ICloneable)!.Clone();
             return result;
         }
 
-        public static void updateConfig(string Name, IRule updatedRule)
+        public static void updateConfig(string Name, Rule.IRule updatedRule)
         {
             _rules[Name] = updatedRule;
         }

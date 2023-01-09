@@ -11,10 +11,12 @@
         <DockPanel Height="174" HorizontalAlignment="Left" VerticalAlignment="Center" Width="450">
             <TextBlock HorizontalAlignment="Center" DockPanel.Dock="Top" Name="ConfigLabel">
             </TextBlock>
+            
             <StackPanel Orientation="Horizontal" Height="25" DockPanel.Dock="Bottom" HorizontalAlignment="Center">
                 <Button Click="OkBtn_Click" Margin="5 5 0 0" Width="50" Name="Ok_Btn">Ok</Button>
                 <Button Click="CancelBtn_Click" Margin="5 5 0 0" Width="50">Cancel</Button>
             </StackPanel>
+
             <ListView Name="ConfigParamatersList" HorizontalAlignment="Stretch">
                 <ListView.ItemTemplate>
                     <DataTemplate>

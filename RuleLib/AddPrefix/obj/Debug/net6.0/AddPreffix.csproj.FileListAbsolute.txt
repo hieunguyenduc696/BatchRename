@@ -1,0 +1,15 @@
+D:\srcC#\RuleLib\RuleLib\AddPrefix\bin\Debug\net6.0\AddPreffix.deps.json
+D:\srcC#\RuleLib\RuleLib\AddPrefix\bin\Debug\net6.0\AddPreffix.dll
+D:\srcC#\RuleLib\RuleLib\AddPrefix\bin\Debug\net6.0\AddPreffix.pdb
+D:\srcC#\RuleLib\RuleLib\AddPrefix\bin\Debug\net6.0\Rule.dll
+D:\srcC#\RuleLib\RuleLib\AddPrefix\bin\Debug\net6.0\Rule.pdb
+D:\srcC#\RuleLib\RuleLib\AddPrefix\obj\Debug\net6.0\AddPreffix.csproj.AssemblyReference.cache
+D:\srcC#\RuleLib\RuleLib\AddPrefix\obj\Debug\net6.0\AddPreffix.GeneratedMSBuildEditorConfig.editorconfig
+D:\srcC#\RuleLib\RuleLib\AddPrefix\obj\Debug\net6.0\AddPreffix.AssemblyInfoInputs.cache
+D:\srcC#\RuleLib\RuleLib\AddPrefix\obj\Debug\net6.0\AddPreffix.AssemblyInfo.cs
+D:\srcC#\RuleLib\RuleLib\AddPrefix\obj\Debug\net6.0\AddPreffix.csproj.CoreCompileInputs.cache
+D:\srcC#\RuleLib\RuleLib\AddPrefix\obj\Debug\net6.0\AddPreffix.csproj.CopyComplete
+D:\srcC#\RuleLib\RuleLib\AddPrefix\obj\Debug\net6.0\AddPreffix.dll
+D:\srcC#\RuleLib\RuleLib\AddPrefix\obj\Debug\net6.0\refint\AddPreffix.dll
+D:\srcC#\RuleLib\RuleLib\AddPrefix\obj\Debug\net6.0\AddPreffix.pdb
+D:\srcC#\RuleLib\RuleLib\AddPrefix\obj\Debug\net6.0\ref\AddPreffix.dll

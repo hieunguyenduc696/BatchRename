@@ -1,6 +1,0 @@
-C:\Users\hieu.nguyen\source\repos\BatchRename\RenamingRules\bin\Debug\RenamingRules.dll
-C:\Users\hieu.nguyen\source\repos\BatchRename\RenamingRules\bin\Debug\RenamingRules.pdb
-C:\Users\hieu.nguyen\source\repos\BatchRename\RenamingRules\obj\Debug\RenamingRules.csproj.AssemblyReference.cache
-C:\Users\hieu.nguyen\source\repos\BatchRename\RenamingRules\obj\Debug\RenamingRules.csproj.CoreCompileInputs.cache
-C:\Users\hieu.nguyen\source\repos\BatchRename\RenamingRules\obj\Debug\RenamingRules.dll
-C:\Users\hieu.nguyen\source\repos\BatchRename\RenamingRules\obj\Debug\RenamingRules.pdb

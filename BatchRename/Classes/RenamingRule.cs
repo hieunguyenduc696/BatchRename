@@ -12,6 +12,7 @@ namespace BatchRename
         public string Name { get; set; }
         public bool Checked { get; set; }
 
+        public string StringParameters { get; set; }
         public RenamingRule()
         {
         }

@@ -1,0 +1,15 @@
+D:\srcC#\RuleLib\RuleLib\AddCounter\bin\Debug\net6.0\AddCounter.deps.json
+D:\srcC#\RuleLib\RuleLib\AddCounter\bin\Debug\net6.0\AddCounter.dll
+D:\srcC#\RuleLib\RuleLib\AddCounter\bin\Debug\net6.0\AddCounter.pdb
+D:\srcC#\RuleLib\RuleLib\AddCounter\obj\Debug\net6.0\AddCounter.csproj.AssemblyReference.cache
+D:\srcC#\RuleLib\RuleLib\AddCounter\obj\Debug\net6.0\AddCounter.GeneratedMSBuildEditorConfig.editorconfig
+D:\srcC#\RuleLib\RuleLib\AddCounter\obj\Debug\net6.0\AddCounter.AssemblyInfoInputs.cache
+D:\srcC#\RuleLib\RuleLib\AddCounter\obj\Debug\net6.0\AddCounter.AssemblyInfo.cs
+D:\srcC#\RuleLib\RuleLib\AddCounter\obj\Debug\net6.0\AddCounter.csproj.CoreCompileInputs.cache
+D:\srcC#\RuleLib\RuleLib\AddCounter\obj\Debug\net6.0\AddCounter.csproj.CopyComplete
+D:\srcC#\RuleLib\RuleLib\AddCounter\obj\Debug\net6.0\AddCounter.dll
+D:\srcC#\RuleLib\RuleLib\AddCounter\obj\Debug\net6.0\refint\AddCounter.dll
+D:\srcC#\RuleLib\RuleLib\AddCounter\obj\Debug\net6.0\AddCounter.pdb
+D:\srcC#\RuleLib\RuleLib\AddCounter\obj\Debug\net6.0\ref\AddCounter.dll
+D:\srcC#\RuleLib\RuleLib\AddCounter\bin\Debug\net6.0\Rule.dll
+D:\srcC#\RuleLib\RuleLib\AddCounter\bin\Debug\net6.0\Rule.pdb

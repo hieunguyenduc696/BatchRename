@@ -1,0 +1,15 @@
+D:\srcC#\RuleLib\RuleLib\PascalCase\bin\Debug\net6.0\PascalCase.deps.json
+D:\srcC#\RuleLib\RuleLib\PascalCase\bin\Debug\net6.0\PascalCase.dll
+D:\srcC#\RuleLib\RuleLib\PascalCase\bin\Debug\net6.0\PascalCase.pdb
+D:\srcC#\RuleLib\RuleLib\PascalCase\bin\Debug\net6.0\Rule.dll
+D:\srcC#\RuleLib\RuleLib\PascalCase\bin\Debug\net6.0\Rule.pdb
+D:\srcC#\RuleLib\RuleLib\PascalCase\obj\Debug\net6.0\PascalCase.csproj.AssemblyReference.cache
+D:\srcC#\RuleLib\RuleLib\PascalCase\obj\Debug\net6.0\PascalCase.GeneratedMSBuildEditorConfig.editorconfig
+D:\srcC#\RuleLib\RuleLib\PascalCase\obj\Debug\net6.0\PascalCase.AssemblyInfoInputs.cache
+D:\srcC#\RuleLib\RuleLib\PascalCase\obj\Debug\net6.0\PascalCase.AssemblyInfo.cs
+D:\srcC#\RuleLib\RuleLib\PascalCase\obj\Debug\net6.0\PascalCase.csproj.CoreCompileInputs.cache
+D:\srcC#\RuleLib\RuleLib\PascalCase\obj\Debug\net6.0\PascalCase.csproj.CopyComplete
+D:\srcC#\RuleLib\RuleLib\PascalCase\obj\Debug\net6.0\PascalCase.dll
+D:\srcC#\RuleLib\RuleLib\PascalCase\obj\Debug\net6.0\refint\PascalCase.dll
+D:\srcC#\RuleLib\RuleLib\PascalCase\obj\Debug\net6.0\PascalCase.pdb
+D:\srcC#\RuleLib\RuleLib\PascalCase\obj\Debug\net6.0\ref\PascalCase.dll

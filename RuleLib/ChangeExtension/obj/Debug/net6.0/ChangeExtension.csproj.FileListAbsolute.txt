@@ -1,0 +1,15 @@
+D:\srcC#\RuleLib\RuleLib\ChangeExtension\bin\Debug\net6.0\ChangeExtension.deps.json
+D:\srcC#\RuleLib\RuleLib\ChangeExtension\bin\Debug\net6.0\ChangeExtension.dll
+D:\srcC#\RuleLib\RuleLib\ChangeExtension\bin\Debug\net6.0\ChangeExtension.pdb
+D:\srcC#\RuleLib\RuleLib\ChangeExtension\bin\Debug\net6.0\Rule.dll
+D:\srcC#\RuleLib\RuleLib\ChangeExtension\bin\Debug\net6.0\Rule.pdb
+D:\srcC#\RuleLib\RuleLib\ChangeExtension\obj\Debug\net6.0\ChangeExtension.csproj.AssemblyReference.cache
+D:\srcC#\RuleLib\RuleLib\ChangeExtension\obj\Debug\net6.0\ChangeExtension.GeneratedMSBuildEditorConfig.editorconfig
+D:\srcC#\RuleLib\RuleLib\ChangeExtension\obj\Debug\net6.0\ChangeExtension.AssemblyInfoInputs.cache
+D:\srcC#\RuleLib\RuleLib\ChangeExtension\obj\Debug\net6.0\ChangeExtension.AssemblyInfo.cs
+D:\srcC#\RuleLib\RuleLib\ChangeExtension\obj\Debug\net6.0\ChangeExtension.csproj.CoreCompileInputs.cache
+D:\srcC#\RuleLib\RuleLib\ChangeExtension\obj\Debug\net6.0\ChangeExtension.csproj.CopyComplete
+D:\srcC#\RuleLib\RuleLib\ChangeExtension\obj\Debug\net6.0\ChangeExtension.dll
+D:\srcC#\RuleLib\RuleLib\ChangeExtension\obj\Debug\net6.0\refint\ChangeExtension.dll
+D:\srcC#\RuleLib\RuleLib\ChangeExtension\obj\Debug\net6.0\ChangeExtension.pdb
+D:\srcC#\RuleLib\RuleLib\ChangeExtension\obj\Debug\net6.0\ref\ChangeExtension.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AddPrefix/1.0.0": {
+        "dependencies": {
+          "Rule": "1.0.0"
+        },
+        "runtime": {
+          "AddPrefix.dll": {}
+        }
+      },
+      "Rule/1.0.0": {
+        "runtime": {
+          "Rule.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AddPrefix/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rule/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

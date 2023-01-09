@@ -1,0 +1,12 @@
+D:\srcC#\RuleLib\RuleLib\IRule\bin\Debug\net6.0\Rule.deps.json
+D:\srcC#\RuleLib\RuleLib\IRule\bin\Debug\net6.0\Rule.dll
+D:\srcC#\RuleLib\RuleLib\IRule\bin\Debug\net6.0\Rule.pdb
+D:\srcC#\RuleLib\RuleLib\IRule\obj\Debug\net6.0\Rule.csproj.AssemblyReference.cache
+D:\srcC#\RuleLib\RuleLib\IRule\obj\Debug\net6.0\Rule.GeneratedMSBuildEditorConfig.editorconfig
+D:\srcC#\RuleLib\RuleLib\IRule\obj\Debug\net6.0\Rule.AssemblyInfoInputs.cache
+D:\srcC#\RuleLib\RuleLib\IRule\obj\Debug\net6.0\Rule.AssemblyInfo.cs
+D:\srcC#\RuleLib\RuleLib\IRule\obj\Debug\net6.0\Rule.csproj.CoreCompileInputs.cache
+D:\srcC#\RuleLib\RuleLib\IRule\obj\Debug\net6.0\Rule.dll
+D:\srcC#\RuleLib\RuleLib\IRule\obj\Debug\net6.0\refint\Rule.dll
+D:\srcC#\RuleLib\RuleLib\IRule\obj\Debug\net6.0\Rule.pdb
+D:\srcC#\RuleLib\RuleLib\IRule\obj\Debug\net6.0\ref\Rule.dll

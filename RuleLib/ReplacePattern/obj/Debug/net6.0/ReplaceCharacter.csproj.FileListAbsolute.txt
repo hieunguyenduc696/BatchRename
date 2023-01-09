@@ -1,0 +1,15 @@
+D:\srcC#\RuleLib\RuleLib\ReplacePattern\bin\Debug\net6.0\ReplaceCharacter.deps.json
+D:\srcC#\RuleLib\RuleLib\ReplacePattern\bin\Debug\net6.0\ReplaceCharacter.dll
+D:\srcC#\RuleLib\RuleLib\ReplacePattern\bin\Debug\net6.0\ReplaceCharacter.pdb
+D:\srcC#\RuleLib\RuleLib\ReplacePattern\bin\Debug\net6.0\Rule.dll
+D:\srcC#\RuleLib\RuleLib\ReplacePattern\bin\Debug\net6.0\Rule.pdb
+D:\srcC#\RuleLib\RuleLib\ReplacePattern\obj\Debug\net6.0\ReplaceCharacter.csproj.AssemblyReference.cache
+D:\srcC#\RuleLib\RuleLib\ReplacePattern\obj\Debug\net6.0\ReplaceCharacter.GeneratedMSBuildEditorConfig.editorconfig
+D:\srcC#\RuleLib\RuleLib\ReplacePattern\obj\Debug\net6.0\ReplaceCharacter.AssemblyInfoInputs.cache
+D:\srcC#\RuleLib\RuleLib\ReplacePattern\obj\Debug\net6.0\ReplaceCharacter.AssemblyInfo.cs
+D:\srcC#\RuleLib\RuleLib\ReplacePattern\obj\Debug\net6.0\ReplaceCharacter.csproj.CoreCompileInputs.cache
+D:\srcC#\RuleLib\RuleLib\ReplacePattern\obj\Debug\net6.0\ReplaceCharacter.csproj.CopyComplete
+D:\srcC#\RuleLib\RuleLib\ReplacePattern\obj\Debug\net6.0\ReplaceCharacter.dll
+D:\srcC#\RuleLib\RuleLib\ReplacePattern\obj\Debug\net6.0\refint\ReplaceCharacter.dll
+D:\srcC#\RuleLib\RuleLib\ReplacePattern\obj\Debug\net6.0\ReplaceCharacter.pdb
+D:\srcC#\RuleLib\RuleLib\ReplacePattern\obj\Debug\net6.0\ref\ReplaceCharacter.dll

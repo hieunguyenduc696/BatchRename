@@ -5,9 +5,21 @@
     <Compile Update="ConfigRule.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="NewRule.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RenamePreset.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="ConfigRule.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="NewRule.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RenamePreset.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

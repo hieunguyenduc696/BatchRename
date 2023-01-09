@@ -94,6 +94,16 @@
             "related": ".xml"
           }
         }
+      },
+      "Rule/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Rule.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Rule.dll": {}
+        }
       }
     }
   },
@@ -247,12 +257,18 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Rule/1.0.0": {
+      "type": "project",
+      "path": "../Rule/Rule.csproj",
+      "msbuildProject": "../Rule/Rule.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "Fluent.Ribbon >= 9.0.4",
-      "PropertyChanged.Fody >= 4.1.0"
+      "PropertyChanged.Fody >= 4.1.0",
+      "Rule >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -285,7 +301,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\srcC#\\MidtermProject\\Rule\\Rule.csproj": {
+              "projectPath": "D:\\srcC#\\MidtermProject\\Rule\\Rule.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

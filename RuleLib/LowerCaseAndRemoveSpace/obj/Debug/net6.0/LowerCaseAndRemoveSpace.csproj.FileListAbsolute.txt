@@ -1,0 +1,15 @@
+D:\srcC#\RuleLib\RuleLib\LowerCaseAndRemoveSpace\bin\Debug\net6.0\LowerCaseAndRemoveSpace.deps.json
+D:\srcC#\RuleLib\RuleLib\LowerCaseAndRemoveSpace\bin\Debug\net6.0\LowerCaseAndRemoveSpace.dll
+D:\srcC#\RuleLib\RuleLib\LowerCaseAndRemoveSpace\bin\Debug\net6.0\LowerCaseAndRemoveSpace.pdb
+D:\srcC#\RuleLib\RuleLib\LowerCaseAndRemoveSpace\bin\Debug\net6.0\Rule.dll
+D:\srcC#\RuleLib\RuleLib\LowerCaseAndRemoveSpace\bin\Debug\net6.0\Rule.pdb
+D:\srcC#\RuleLib\RuleLib\LowerCaseAndRemoveSpace\obj\Debug\net6.0\LowerCaseAndRemoveSpace.csproj.AssemblyReference.cache
+D:\srcC#\RuleLib\RuleLib\LowerCaseAndRemoveSpace\obj\Debug\net6.0\LowerCaseAndRemoveSpace.GeneratedMSBuildEditorConfig.editorconfig
+D:\srcC#\RuleLib\RuleLib\LowerCaseAndRemoveSpace\obj\Debug\net6.0\LowerCaseAndRemoveSpace.AssemblyInfoInputs.cache
+D:\srcC#\RuleLib\RuleLib\LowerCaseAndRemoveSpace\obj\Debug\net6.0\LowerCaseAndRemoveSpace.AssemblyInfo.cs
+D:\srcC#\RuleLib\RuleLib\LowerCaseAndRemoveSpace\obj\Debug\net6.0\LowerCaseAndRemoveSpace.csproj.CoreCompileInputs.cache
+D:\srcC#\RuleLib\RuleLib\LowerCaseAndRemoveSpace\obj\Debug\net6.0\LowerCaseAndRemoveSpace.csproj.CopyComplete
+D:\srcC#\RuleLib\RuleLib\LowerCaseAndRemoveSpace\obj\Debug\net6.0\LowerCaseAndRemoveSpace.dll
+D:\srcC#\RuleLib\RuleLib\LowerCaseAndRemoveSpace\obj\Debug\net6.0\refint\LowerCaseAndRemoveSpace.dll
+D:\srcC#\RuleLib\RuleLib\LowerCaseAndRemoveSpace\obj\Debug\net6.0\LowerCaseAndRemoveSpace.pdb
+D:\srcC#\RuleLib\RuleLib\LowerCaseAndRemoveSpace\obj\Debug\net6.0\ref\LowerCaseAndRemoveSpace.dll
