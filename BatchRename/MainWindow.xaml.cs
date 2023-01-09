@@ -200,6 +200,11 @@ namespace BatchRename
             //_listOfRules.Add(new AddCounter());
             //_listOfRules.Add(new ChangeExtension() { NewExtension = "file" });
 
+            if (!System.IO.Directory.Exists(@"Rules"))
+            {
+                Directory.CreateDirectory(@"Rules");
+            }
+
             foreach (string file in Directory.EnumerateFiles(@"Rules", "*.dll"))
             {
                 string[] splitPath = file.Split("\\");
